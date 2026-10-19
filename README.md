@@ -78,7 +78,7 @@ spring:
 | `server.port` | Local HTTP port | `8080` |
 | `server.ssl.enabled` | Keeps the embedded server on HTTP | `false` |
 | `spring.ssl.bundle.jks.restful-api` | Name of the SSL Bundle used by the custom client | `restful-api` |
-| `SSL_TRUSTSTORE_PATH` | Absolute path to the custom truststore | `D:/Shashank/Train/SpringSSL/springssl/certificates/restful-api-dev-ts.p12` |
+| `SSL_TRUSTSTORE_PATH` | Absolute path to the custom truststore | `<full path>/springssl/certificates/restful-api-dev-ts.p12` |
 | `SSL_TRUSTSTORE_PASSWORD` | Password to open the truststore | Set locally; do not commit |
 | `type` | Truststore format | `PKCS12` |
 
