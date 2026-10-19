@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: springssl
+  ssl:
+    bundle:
+      jks:
+        restful-api:
+          truststore:
+            location: file:${SSL_TRUSTSTORE_PATH}
+            password: ${SSL_TRUSTSTORE_PASSWORD}
+            type: PKCS12
+
+server:
+  port: 8080
+  ssl:
+    enabled: false
