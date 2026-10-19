@@ -114,7 +114,7 @@ This section assumes you have already obtained the certificate for `api.restful-
 1. Inspect the certificate:
 
    ```powershell
-   keytool -printcert -v -file .\certificates\restful-api-leaf.cer
+   keytool -printcert -v -file .\certificates\restful-api-dev.crt
    ```
 
 2. If you are creating a new test truststore, import the verified certificate:
